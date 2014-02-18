@@ -11,8 +11,6 @@ function MakeDivision(divisor){
 	isDivideByFive = MakeDivision(5)
 	isDivideByFifteen = MakeDivision(15)
 
-	function Play(){
-	}
 		fizz = function(number){
 		 if (isDivideByFifteen(number)== true){
 		 	return "FizzBuzz";
@@ -24,4 +22,6 @@ function MakeDivision(divisor){
 			return "Fizz";
 			}
 			else return number;
+
+
 	};
