@@ -21,16 +21,20 @@ describe("Fizzbuzz", function(){
 describe("Play", function() {
 
   it ("should tell fizz if the number is divisible by 3",function(){
-    expect(fizz(3)).toEqual("Fizz")
+    expect(Fizz(15)).toEqual("Fizzbuzz")
+  });
+
+  it ("should tell fizz if the number is divisible by 3",function(){
+    expect(Fizz(3)).toEqual("Fizz")
   });
 
   it ("should tell Buzz if the number is divisible by 5",function(){
-    expect(fizz(5)).toEqual("Buzz")
+    expect(Fizz(5)).toEqual("Buzz")
   });
 
 
   it ("should return number if is not divisible by 3 and 5",function(){
-    expect(fizz(4)).toEqual(4)
+    expect(Fizz(4)).toEqual(4)
   });
 
 });
