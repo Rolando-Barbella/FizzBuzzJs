@@ -23,5 +23,4 @@ function MakeDivision(divisor){
 			}
 			else return number;
 
-
 	};
