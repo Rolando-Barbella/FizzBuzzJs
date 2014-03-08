@@ -11,15 +11,15 @@ function MakeDivision(divisor){
 	isDivideByFive = MakeDivision(5)
 	isDivideByFifteen = MakeDivision(15)
 
-		Fizz = function(number){
-		 if (isDivideByFifteen(number)== true){
-		 	return"Fizzbuzz";
-		 }
-		 else if(isDivideByFive(number)== true){
-			return "Buzz";
-			}
-			else if(isDivideByThree(number)== true){
-			return "Fizz";
-			}
-			else return number;
+	Fizz = function(number){
+	 if (isDivideByFifteen(number)== true){
+	 	return"Fizzbuzz";
+	 }
+	 else if(isDivideByFive(number)== true){
+		return "Buzz";
+		}
+		else if(isDivideByThree(number)== true){
+		return "Fizz";
+		}
+		else return number;
 	};

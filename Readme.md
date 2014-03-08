@@ -10,20 +10,17 @@ Pieces of the code
 
 ```sh
 Fizz = function(number){
-		 if (isDivideByFifteen(number)== true){
-		 	return"Fizzbuzz";
-		 }
-		 else if(isDivideByFive(number)== true){
-      return "Buzz";
-			}
-			else if(isDivideByThree(number)== true){
-			return "Fizz";
-			}
-			else return number;
-
+	 if (isDivideByFifteen(number)== true){
+	 	return"Fizzbuzz";
+	 }
+	 else if(isDivideByFive(number)== true){
+		return "Buzz";
+		}
+		else if(isDivideByThree(number)== true){
+		return "Fizz";
+		}
+		else return number;
 	};
-
-};
 ```
 Installation
 -----------
