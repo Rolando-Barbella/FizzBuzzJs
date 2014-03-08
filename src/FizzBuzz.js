@@ -16,11 +16,10 @@ function MakeDivision(divisor){
 		 	return"Fizzbuzz";
 		 }
 		 else if(isDivideByFive(number)== true){
-      return "Buzz";
+			return "Buzz";
 			}
 			else if(isDivideByThree(number)== true){
 			return "Fizz";
 			}
 			else return number;
-
 	};
