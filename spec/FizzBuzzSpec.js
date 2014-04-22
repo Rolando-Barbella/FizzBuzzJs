@@ -36,5 +36,13 @@ describe("Play", function(){
     expect(Play(5)).toEqual('Buzz');
 	});
 
+	it("Should say Buzz when the number is divisible by 15", function(){
+    expect(Play(15)).toEqual('Fizz Buzz');
+	});
+
+  it("Should say Buzz when the number is divisible by 15,3,5", function(){
+    expect(Play(9)).toEqual(9);
+	});
+
 
 });
