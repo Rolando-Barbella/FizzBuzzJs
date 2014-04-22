@@ -29,8 +29,12 @@ it("Should tell true when a number is divisible by 3,5,15",function(){
 describe("Play", function(){
 
 	it("Should say Fizz when the number is divisble by three",function(){
-      expect(MakeNumberDivisor(3)).toBe(true);
-	})
+      expect(Play(3)).toEqual('Fizz');
+	});
+
+	it("Should say Buzz when the number is divisible by 5", function(){
+    expect(Play(5)).toEqual('Buzz');
+	});
 
 
 });

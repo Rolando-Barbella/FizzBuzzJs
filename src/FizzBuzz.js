@@ -40,16 +40,20 @@ function MakeNumberDivisor(number){
 	}
 };
 
-// function MakeDivision(divisor){
-// 	return function(number){
-// 		return number % divisor == 0;
-// 	}
-// };
+   isDivideByThree = MakeNumberDivisor(3);
+   isDivideByFive = MakeNumberDivisor(5);
+   isDivideByFifteen = MakeNumberDivisor(15);
 
-// 	isDivideByThree = MakeDivision(3)
-// 	isDivideByFive = MakeDivision(5)
-// 	isDivideByFifteen = MakeDivision(15)
+   Play = function(number){
+   	if(isDivideByThree(number) == true){
+   		return"Fizz";
+   	}
+   	else if(isDivideByFive(number)== true){
+   		return"Buzz";
+   	}
 
+
+   };
 // 	Fizz = function(number){
 // 	 if (isDivideByFifteen(number)== true){
 // 	 	return"Fizzbuzz";
