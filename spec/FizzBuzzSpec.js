@@ -12,6 +12,11 @@ describe("Fizzbuzz", function(){
    expect(isDivideByFifteen(15)).toBe(true)
  });
 
+ it("Should say false when the number is not divisible by 3,5 or 15",function(){
+ 	expect(MakeDivision(5,4)).toBe(true)
+ });
+
+
 });
 
 

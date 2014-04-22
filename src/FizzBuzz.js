@@ -8,16 +8,26 @@ function FizzBuzz(){
 	};
 
 	function isDivideByFive(number){
-		if(number%5 == 0){
+		if(number%5==0){
 			return true;
 		}
 	};
 
 	function isDivideByFifteen(number){
-		if(numbe%15 == 0){
+		if(number%15 == 0){
 			return true;
 		}
 	};
+
+function MakeDivision(number,divider){
+ if(number%divider == 0){
+ 	return true;
+ 	}
+ 	else{
+ 		return false;
+ 	}
+}
+
 
 
 // function MakeDivision(divisor){
