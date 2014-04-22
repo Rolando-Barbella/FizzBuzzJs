@@ -20,15 +20,25 @@ function FizzBuzz(){
 	};
 
 function MakeDivision(number,divider){
- if(number % divider == 0){
- 	return true;
- 	}
- 	else{
- 		return false;
- 	}
+	if(number % divider == 0){
+	return true;
+	}
+	else{
+	return false;
+	}
 };
 
+function MakeDivision2(){
+	var number = 15;
+	var divider = 5;
+	return number%divider == 0;
+}
 
+function MakeNumberDivisor(number){
+	return function(divisor){
+   return number%divisor == 0;
+	}
+};
 
 // function MakeDivision(divisor){
 // 	return function(number){
