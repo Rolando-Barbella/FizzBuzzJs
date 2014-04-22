@@ -1,21 +1,24 @@
 describe("Fizzbuzz", function(){
 
- it("Should tell when the number divisible by 3", function(){
+	it("Should tell when the number divisible by 3", function(){
 		expect(isDivideByThree(3)).toBe(true)
-  });
+	});
 
- it("Should tell when the number is divisble by 5", function(){
+	it("Should tell when the number is divisble by 5", function(){
 	  expect(isDivideByFive(5)).toBe(true)
+	});
+
+	it("Should tell when a number is divisible by 15",function(){
+	 expect(isDivideByFifteen(15)).toBe(true)
+	});
+
+	it("Should tell when a number is divisible by 15, testing another function",function(){
+		expect(MakeDivision(15,5)).toBe(true)
+	});
+
+  it("Should tell false when a number is not divisible by 3,5,15",function(){
+   expect(MakeDivision(15,4)).toBe(false);
   });
-
- it("Should tell when a number is divisible by 15",function(){
-   expect(isDivideByFifteen(15)).toBe(true)
- });
-
- it("Should say false when the number is not divisible by 3,5 or 15",function(){
- 	expect(MakeDivision(5,4)).toBe(true)
- });
-
 
 });
 

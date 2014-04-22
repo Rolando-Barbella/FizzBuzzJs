@@ -20,13 +20,13 @@ function FizzBuzz(){
 	};
 
 function MakeDivision(number,divider){
- if(number%divider == 0){
+ if(number % divider == 0){
  	return true;
  	}
  	else{
  		return false;
  	}
-}
+};
 
 
 
